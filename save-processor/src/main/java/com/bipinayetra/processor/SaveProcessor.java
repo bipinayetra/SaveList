@@ -1,4 +1,4 @@
-package com.bipinayetra.savelist;
+package com.bipinayetra.processor;
 
 import com.bipinayetra.annotation.SaveList;
 

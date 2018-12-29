@@ -1,1 +1,1 @@
-include ':app', ':annotation', ':savelist'
+include ':app', ':save-annotation', ':save-processor'

@@ -38,11 +38,11 @@ public class PlayGround extends Activity {
             System.out.println(p);
         }
 
-//        animals.add(new Animal(true, "doggy1"));
-//        animals.add(new Animal(true, "doggy2"));
-//        animals.add(new Animal(true, "doggy3"));
-//        animals.add(new Animal(true, "doggy4"));
-//        EscapeSQLBoiler.getEscapeSQLBoiler(this).saveMyList(animalkey, animals);
+        animals.add(new Animal(true, "doggy1"));
+        animals.add(new Animal(true, "doggy2"));
+        animals.add(new Animal(true, "doggy3"));
+        animals.add(new Animal(true, "doggy4"));
+        EscapeSQLBoiler.getEscapeSQLBoiler(this).saveMyList(animalkey, animals);
         newanimals = EscapeSQLBoiler.getEscapeSQLBoiler(this).giveMyListSavedInKey(animalkey);
         for (Animal p : newanimals) {
             System.out.println(p);

@@ -25,7 +25,11 @@ android {
 }
 
 dependencies {
-    annotationProcessor project(path: ':savelist')
     implementation 'com.google.code.gson:gson:2.8.5'
-    implementation project(path: ':annotation')
+
+//    annotationProcessor project(path: ':save-processor')
+//    implementation project(path: ':save-annotation')
+
+    annotationProcessor 'com.bipinayetra:save-processor:1.0.0'
+    implementation 'com.bipinayetra:save-annotation:1.0.0'
 }
